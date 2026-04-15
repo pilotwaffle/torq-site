@@ -53,7 +53,7 @@ export default function Pricing() {
               {/* Badge */}
               <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-torq-red/15 border border-torq-red/30 text-torq-red text-[10px] font-bold tracking-widest uppercase w-fit mb-6">
                 <Zap size={10} />
-                First 50 users — rate locked forever
+                First 50 users — opportunity to get rate locked forever
               </div>
 
               {/* Price */}
