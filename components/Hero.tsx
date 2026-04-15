@@ -46,7 +46,7 @@ const ConsoleMockup = () => (
         {/* Prince response */}
         <div className="ml-4 mt-2 border-l-2 border-torq-red/40 pl-4 space-y-2">
           <p className="text-torq-white font-sans text-[13px] leading-relaxed">
-            <span className="text-torq-red font-semibold">Prince</span>
+            <span className="text-torq-red font-semibold">TORQ AI</span>
             <span className="text-torq-grey text-xs ml-2">— AI Advisor</span>
           </p>
           <p className="text-torq-grey-light font-sans text-[13px] leading-relaxed">
@@ -82,7 +82,7 @@ const ConsoleMockup = () => (
         <div className="flex items-center gap-4">
           <span>5 WORKSPACES</span>
           <span className="text-torq-border">|</span>
-          <span>PRINCE AI v2.0</span>
+          <span>TORQ AI v2.0</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />

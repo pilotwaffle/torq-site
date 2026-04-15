@@ -14,10 +14,10 @@ import {
 const features = [
   {
     icon: <Brain size={26} className="text-torq-red" />,
-    title: 'Prince AI Advisor',
+    title: 'TORQ AI Advisor',
     badge: 'Fine-Tuned',
     description:
-      'Prince isn\'t a wrapper around a generic model. He\'s a purpose-built advisory agent calibrated on 1,770+ real financial conversations — trained to think like a senior analyst, not autocomplete. He knows the difference between a tax-loss harvest and a wash sale. He knows why 4,000 shares of STRC is an income engine, not a speculation. Every session he loads your live portfolio, your strategy, and your context before answering.',
+      'TORQ AI isn\'t a wrapper around a generic model. It\'s a purpose-built advisory agent calibrated on 1,770+ real financial conversations — trained to think like a senior analyst, not autocomplete. It knows the difference between a tax-loss harvest and a wash sale. It knows why 4,000 shares of STRC is an income engine, not a speculation. Every session it loads your live portfolio, your strategy, and your context before answering.',
     highlight: '1,770+ domain-specific training conversations',
   },
   {

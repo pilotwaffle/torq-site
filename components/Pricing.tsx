@@ -2,7 +2,7 @@ import { Check, Zap, AlertCircle } from 'lucide-react';
 
 const baseFeatures = [
   'All 5 workspace canvases (Advisory, Market, Docs, Draft, Runs)',
-  'Prince AI Advisor — fine-tuned financial intelligence',
+  'TORQ AI Advisor — fine-tuned financial intelligence',
   'Persistent memory across all sessions',
   'Real-time market data + live web search',
   'PDF, DOCX, and Markdown export',

@@ -14,7 +14,7 @@ const useCases = [
     icon: <TrendingUp size={22} className="text-torq-red" />,
     title: 'Investment Planning',
     description:
-      'Build a portfolio strategy calibrated to your risk tolerance, time horizon, and goals. Prince AI knows your holdings, your DCA schedule, and your 5-year plan — and gives you analysis that rivals what a top wealth manager charges $500/hr to provide.',
+      'Build a portfolio strategy calibrated to your risk tolerance, time horizon, and goals. TORQ AI knows your holdings, your DCA schedule, and your 5-year plan — and gives you analysis that rivals what a top wealth manager charges $500/hr to provide.',
     tag: 'Portfolio',
     detail: 'Advisory Desk workspace',
   },
