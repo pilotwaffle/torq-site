@@ -50,16 +50,14 @@ const ConsoleMockup = () => (
             <span className="text-torq-grey text-xs ml-2">— AI Advisor</span>
           </p>
           <p className="text-torq-grey-light font-sans text-[13px] leading-relaxed">
-            MSTR holds ~214,400 BTC at a cost basis of ~$58K. Current BTC at $84,000
-            puts unrealized gain at +45%. With 30-day IV at 78%, your position carries
-            a <span className="text-torq-white font-semibold">High volatility risk</span> — appropriate for your 20% capital cap.
+            Strategy holds 780,897 BTC at an average cost of $75,577 — total acquisition cost $59.02B. At current BTC levels the position is roughly breakeven on cost basis with significant convexity to the upside. Your 1,400 shares carry leveraged BTC exposure with amplified downside in a drawdown. 30-day IV remains elevated. Position is within your 20% capital cap and your $454 exit target remains the defined offramp. Risk: Elevated but intentional.
           </p>
           <div className="flex gap-3 mt-3 flex-wrap">
             <span className="px-2.5 py-1 text-xs rounded border border-torq-border text-torq-grey bg-torq-muted/50">
               Position: 1,400 shares
             </span>
             <span className="px-2.5 py-1 text-xs rounded border border-green-900 text-green-400 bg-green-950/30">
-              P&amp;L: +$102,900
+              Exit target: $454
             </span>
             <span className="px-2.5 py-1 text-xs rounded border border-yellow-900 text-yellow-400 bg-yellow-950/30">
               Risk: Elevated
@@ -80,7 +78,7 @@ const ConsoleMockup = () => (
       {/* Bottom bar */}
       <div className="flex items-center justify-between px-5 py-2 border-t border-torq-border bg-torq-darker text-[10px] text-torq-grey font-mono">
         <div className="flex items-center gap-4">
-          <span>5 WORKSPACES</span>
+          <span>6 WORKSPACES</span>
           <span className="text-torq-border">|</span>
           <span>TORQ AI v2.0</span>
         </div>
@@ -113,27 +111,19 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: Copy */}
           <div className="flex flex-col gap-8">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 w-fit px-3 py-1.5 rounded-full border border-torq-red/30 bg-torq-red/5 text-torq-red text-xs font-semibold tracking-wider uppercase">
-              <div className="w-1.5 h-1.5 rounded-full bg-torq-red animate-pulse" />
-              Now in Early Access
-            </div>
+            {/* Eyebrow */}
+            <p className="text-torq-red text-xs font-bold tracking-[0.2em] uppercase mb-2">Meet TORQ AI</p>
 
             {/* Headline */}
             <div>
               <h1 className="text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight text-torq-white">
-                The AI Business Console Built for{' '}
-                <span className="text-torq-red text-glow-red">
-                  Serious Decision-Makers
-                </span>
+                Your autonomous financial intelligence agent
               </h1>
             </div>
 
             {/* Subline */}
             <p className="text-lg text-torq-grey leading-relaxed max-w-xl">
-              TORQ Console gives small businesses, investors, and operators the same
-              intelligence firepower as Fortune 500 advisory teams —{' '}
-              <span className="text-torq-grey-light font-medium">at $50/month.</span>
+              Built by Barry Flowers. Trained on 1,770+ real advisory conversations. Runs inside TORQ Console — your personal command center for every financial decision that matters.
             </p>
 
             {/* CTAs */}
@@ -150,7 +140,7 @@ export default function Hero() {
                 className="group inline-flex items-center gap-2 px-7 py-4 rounded-xl border border-torq-border hover:border-torq-muted text-torq-grey-light hover:text-torq-white font-semibold text-base transition-all duration-200 bg-torq-surface/50 hover:bg-torq-surface"
               >
                 <Play size={16} className="text-torq-red" />
-                See How It Works
+                See TORQ AI in action
               </a>
             </div>
 
@@ -159,7 +149,7 @@ export default function Hero() {
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M7 1L8.8 5.2L13.5 5.6L10 8.7L11 13.3L7 10.9L3 13.3L4 8.7L0.5 5.6L5.2 5.2L7 1Z" fill="#e8001c" fillOpacity="0.7" />
               </svg>
-              No credit card required &middot; Cancel anytime &middot; Full access from day one
+              No credit card required &middot; Cancel anytime &middot; Built on your portfolio, not a template
             </p>
           </div>
 

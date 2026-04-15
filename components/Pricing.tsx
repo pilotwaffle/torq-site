@@ -1,7 +1,7 @@
 import { Check, Zap, AlertCircle } from 'lucide-react';
 
 const baseFeatures = [
-  'All 5 workspace canvases (Advisory, Market, Docs, Draft, Runs)',
+  'All 6 workspace canvases (Advisory, Market, Docs, Draft, Runs, Chat)',
   'TORQ AI Advisor — fine-tuned financial intelligence',
   'Persistent memory across all sessions',
   'Real-time market data + live web search',
@@ -10,6 +10,7 @@ const baseFeatures = [
   'L25 enterprise risk governance',
   'Up to 300 queries/month included',
   'Priority support',
+  'Rate locked — never raised for early access users',
 ];
 
 export default function Pricing() {
@@ -37,7 +38,7 @@ export default function Pricing() {
           </h2>
           <p className="text-torq-grey max-w-lg mx-auto text-lg">
             $50/month gets you everything. Heavy users pay a fair overage —
-            we don't penalize light users to subsidize power users.
+            we don&apos;t penalize light users to subsidize power users.
           </p>
         </div>
 
@@ -52,7 +53,7 @@ export default function Pricing() {
               {/* Badge */}
               <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-torq-red/15 border border-torq-red/30 text-torq-red text-[10px] font-bold tracking-widest uppercase w-fit mb-6">
                 <Zap size={10} />
-                Early Access
+                First 50 users — rate locked forever
               </div>
 
               {/* Price */}
@@ -64,6 +65,7 @@ export default function Pricing() {
                     <span className="text-torq-grey text-xs">base plan</span>
                   </div>
                 </div>
+                <p className="text-xs text-torq-red/80 mt-1">42 of 50 early access spots remaining</p>
                 <p className="text-torq-grey text-sm mt-2">Includes up to 300 queries/month</p>
               </div>
 
@@ -129,8 +131,7 @@ export default function Pricing() {
                 <span className="text-[10px] font-bold tracking-widest uppercase px-2 py-1 rounded-full border border-torq-border text-torq-grey">Coming Soon</span>
               </div>
               <p className="text-torq-grey text-sm leading-relaxed mb-4">
-                Unlimited queries, team seats, API access, custom memory,
-                and dedicated support. Pricing set once real usage data is in.
+                Unlimited queries, team seats, API access, custom memory configurations, and dedicated support. Early access users get first access and input on Pro pricing before it&apos;s set.
               </p>
               <a
                 href="mailto:Admin@TorqBusinessSolutions.com?subject=TORQ Console Pro Waitlist&body=Hi, I'd like to join the Pro plan waitlist for TORQ Console. Please keep me updated on pricing and availability."
@@ -147,7 +148,7 @@ export default function Pricing() {
                   'No credit card for trial',
                   'Cancel anytime',
                   'Full access from day one',
-                  'You\'ll always know your costs upfront',
+                  "You'll always know your costs upfront",
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-torq-grey">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0">
