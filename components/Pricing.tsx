@@ -89,7 +89,7 @@ export default function Pricing() {
 
               {/* CTA */}
               <a
-                href="#"
+                href="mailto:Admin@TorqBusinessSolutions.com?subject=TORQ Console Free Trial Request&body=Hi, I'd like to start my free 48-hour trial of TORQ Console. Please send me access details."
                 className="block w-full text-center py-4 px-8 rounded-xl bg-torq-red hover:bg-torq-red-bright text-white font-bold text-lg transition-all duration-200 glow-red hover:scale-[1.01] active:scale-[0.99]"
               >
                 Start Free Trial
@@ -135,7 +135,7 @@ export default function Pricing() {
                 and dedicated support. Pricing set once real usage data is in.
               </p>
               <a
-                href="#"
+                href="mailto:Admin@TorqBusinessSolutions.com?subject=TORQ Console Pro Waitlist&body=Hi, I'd like to join the Pro plan waitlist for TORQ Console. Please keep me updated on pricing and availability."
                 className="block w-full text-center py-2.5 px-6 rounded-lg border border-torq-border text-torq-grey hover:text-torq-white hover:border-torq-red/40 text-sm font-semibold transition-all duration-200"
               >
                 Join Pro Waitlist

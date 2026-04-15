@@ -15,7 +15,7 @@ const TorqLogoSmall = () => (
 const footerLinks = [
   { label: 'Privacy Policy', href: '#' },
   { label: 'Terms of Service', href: '#' },
-  { label: 'Contact', href: 'mailto:hello@torqconsole.com' },
+  { label: 'Contact', href: 'mailto:Admin@TorqBusinessSolutions.com' },
 ];
 
 export default function Footer() {

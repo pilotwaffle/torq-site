@@ -139,7 +139,7 @@ export default function Hero() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 items-start">
               <a
-                href="#pricing"
+                href="mailto:Admin@TorqBusinessSolutions.com?subject=TORQ Console Free Trial Request&body=Hi, I'd like to start my free 48-hour trial of TORQ Console. Please send me access details."
                 className="group inline-flex items-center gap-2 px-7 py-4 rounded-xl bg-torq-red hover:bg-torq-red-bright text-white font-bold text-base transition-all duration-200 glow-red hover:scale-[1.02] active:scale-[0.98]"
               >
                 Start Free — 48 Hours
