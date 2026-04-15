@@ -5,56 +5,84 @@ import {
   Radio,
   FileOutput,
   ShieldCheck,
+  Zap,
+  GitMerge,
+  Slack,
+  TrendingDown,
 } from 'lucide-react';
 
 const features = [
   {
     icon: <Brain size={26} className="text-torq-red" />,
     title: 'Prince AI Advisor',
-    badge: 'Fine-tuned',
+    badge: 'Fine-Tuned',
     description:
-      'Prince isn\'t a wrapper around ChatGPT. He\'s a custom AI persona fine-tuned on 1,770+ real financial conversations — calibrated to think like a senior financial analyst, not a generic language model. He knows the difference between a tax-loss harvest and a wash sale. He knows why a STRC position at 4,000 shares is an income engine, not speculation.',
-    highlight: '1,770+ training conversations',
+      'Prince isn\'t a wrapper around a generic model. He\'s a purpose-built advisory agent calibrated on 1,770+ real financial conversations — trained to think like a senior analyst, not autocomplete. He knows the difference between a tax-loss harvest and a wash sale. He knows why 4,000 shares of STRC is an income engine, not a speculation. Every session he loads your live portfolio, your strategy, and your context before answering.',
+    highlight: '1,770+ domain-specific training conversations',
   },
   {
     icon: <Database size={26} className="text-torq-red" />,
-    title: 'Persistent Memory',
-    badge: 'Session-to-session',
+    title: 'Dream Memory System',
+    badge: 'Self-Improving',
     description:
-      'TORQ remembers everything. Your portfolio holdings. Your DCA strategy. Your risk tolerance. Your upcoming tax deadline. Every session starts where the last one ended — no re-explaining, no re-contextualizing. It\'s the difference between a call center agent and a trusted advisor who knows your file.',
-    highlight: 'Full context retained across all sessions',
+      'TORQ doesn\'t just remember your sessions — it extracts, validates, and persists knowledge from every interaction into a governed Dream Memory layer. Verified facts, patterns, decisions, and best practices accumulate over time. IRS tax law, Section 179 limits, your entity structure, your DCA rules — all stored and injected into every future session automatically. The system gets smarter with every query.',
+    highlight: 'Persistent memory that compounds over time',
   },
   {
     icon: <LayoutDashboard size={26} className="text-torq-red" />,
-    title: '5 Workspace Canvases',
-    badge: 'Purpose-built',
+    title: '6 Purpose-Built Workspaces',
+    badge: 'Intelligent Routing',
     description:
-      'Advisory Desk. Market Intelligence. Document Review. Draft Workshop. Execution Runs. Each canvas is purpose-built for its task — specialized rendering, specialized AI routing, specialized output format. This isn\'t a chatbox with tabs. It\'s a purpose-built intelligence workbench.',
-    highlight: 'Right tool for every decision type',
+      'Advisory Desk. Market Intelligence. Document Review. Draft Workshop. Execution Runs. Conversational Chat. Each canvas is purpose-built — specialized rendering, specialized AI routing, specialized output format. TORQ\'s 8-stage deterministic classifier routes every query to the right workspace in under 1 millisecond, before the LLM is even called. No command syntax. No learning curve.',
+    highlight: '<1ms routing — 8-stage deterministic classifier',
   },
   {
     icon: <Radio size={26} className="text-torq-red" />,
-    title: 'Real-Time Market Data',
+    title: 'Conditional Real-Time Intelligence',
     badge: 'Live',
     description:
-      'Live price feeds, technical signals, sentiment scoring, and integrated web search. When you ask "what\'s moving in biotech today," TORQ doesn\'t say "I don\'t have real-time data." It pulls live quotes, searches current news, and synthesizes a brief — in seconds.',
-    highlight: 'Live prices + web search integrated',
+      'Live price feeds, technical signals, and integrated web search — but activated conditionally. Market queries get real-time data. Legal analysis, drafting, and strategic planning skip web search entirely, cutting input tokens 23–38% on non-market calls. When you ask "what\'s moving in biotech today," TORQ pulls live quotes and synthesizes a brief in seconds. When you ask to review a contract, it doesn\'t waste compute fetching news.',
+    highlight: '23–38% token reduction on non-market queries',
+  },
+  {
+    icon: <Zap size={26} className="text-torq-red" />,
+    title: 'Multi-Model Cost Routing',
+    badge: 'L24 Intelligence',
+    description:
+      'TORQ automatically picks the right AI model for every operation — a 4-tier routing system that routes simple queries to fast cheap models (GLM-5-Turbo, local Ollama) and reserves Claude Sonnet/Opus for complex reasoning. Classification happens in under 1ms with no LLM overhead. The result: Fortune 500-grade intelligence at a fraction of the compute cost. Prompt caching drops miss rates from 69% to 13%.',
+    highlight: '4-tier model routing — 69% → 13% cache miss rate',
+  },
+  {
+    icon: <GitMerge size={26} className="text-torq-red" />,
+    title: 'Learning Loop Infrastructure',
+    badge: 'Adaptive',
+    description:
+      'Every classification decision, every interaction, every model call is logged to a persistent learning infrastructure. The system reads recent patterns back into its context on every session — routing decisions improve over time without retraining. Adaptive response depth automatically scales answer complexity: simple queries get crisp 2-4 paragraph answers; deep analysis requests trigger exhaustive 5,000+ character breakdowns with bull/base/bear scenarios.',
+    highlight: 'System improves with every query — no retraining needed',
   },
   {
     icon: <FileOutput size={26} className="text-torq-red" />,
     title: 'Export Everything',
-    badge: 'Production-ready',
+    badge: 'Production-Ready',
     description:
-      'Every output in TORQ is export-ready. One click to PDF (formatted for print), DOCX (editable in Word), or Markdown (version-controlled). Send a brief to your attorney. Share a market summary with your team. File a strategy doc in your records. Professional output, zero friction.',
-    highlight: 'PDF, DOCX, Markdown — one click',
+      'Every output in TORQ is export-ready. One click to PDF (print-formatted), DOCX (Word-editable with headings, tables, and inline formatting), or Markdown (version-controlled). Send a strategic brief to your attorney. Share a market summary with your team. File a tax strategy doc in your records. Export to Slack with one click. Professional output with zero reformatting.',
+    highlight: 'PDF · DOCX · Markdown · Slack — one click each',
   },
   {
     icon: <ShieldCheck size={26} className="text-torq-red" />,
-    title: 'Enterprise Safety Built In',
-    badge: 'L25 Governance',
+    title: 'L21–L25 Governance Stack',
+    badge: 'Enterprise-Grade',
     description:
-      'TORQ ships with a risk classification layer (L25 Runtime Governance) that monitors every operation. Fast-path queries execute instantly. High-stakes operations route through safety review. Enterprise-grade guardrails — the kind Fortune 500 companies pay compliance teams to build manually.',
-    highlight: 'Multi-tier risk governance engine',
+      'TORQ ships a full 5-layer governance architecture. L21 Runtime Enforcement monitors every operation through a 5-mode lifecycle (Observe → Advise → Shadow → Partial → Enforce). L25 Risk Classification fast-paths low-risk operations and routes high-stakes changes through audit review. Every governance decision, config change, and enforcement event persists to append-only Supabase tables — a full audit trail, bank-grade.',
+    highlight: 'Full audit trail — append-only, tamper-evident',
+  },
+  {
+    icon: <TrendingDown size={26} className="text-torq-red" />,
+    title: 'Context Compaction',
+    badge: 'L22.5',
+    description:
+      'Long sessions don\'t bloat. When a conversation exceeds 150,000 tokens, TORQ\'s L22.5 Context Pipeline automatically compacts the history using a fast free-tier model — preserving full situational awareness at near-zero cost. You keep the context. You don\'t pay for it twice. The system caps failures at 3 per session and degrades gracefully if compaction isn\'t available.',
+    highlight: 'Intelligent compaction at 150K tokens — ~$0 cost',
   },
 ];
 
@@ -71,13 +99,13 @@ export default function Features() {
             Features
           </p>
           <h2 className="text-4xl lg:text-5xl font-black text-torq-white mb-6 leading-tight">
-            Built from the ground up.
+            Engineered from first principles.
             <br />
-            <span className="text-torq-grey font-light">Not bolted together.</span>
+            <span className="text-torq-grey font-light">Not assembled from parts.</span>
           </h2>
           <p className="text-torq-grey max-w-xl mx-auto text-lg">
-            Every feature in TORQ exists because a real decision-maker needed it.
-            Zero bloat. No feature theater.
+            Every layer of TORQ was built because a real decision required it.
+            Nine intelligence systems. Zero bloat. No feature theater.
           </p>
         </div>
 
@@ -110,7 +138,7 @@ export default function Features() {
                 </div>
 
                 {/* Highlight */}
-                <div className="hidden lg:flex flex-col justify-center min-w-[180px]">
+                <div className="hidden lg:flex flex-col justify-center min-w-[220px]">
                   <div className="text-right">
                     <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-torq-border bg-torq-surface text-xs text-torq-grey-light font-medium">
                       <div className="w-1.5 h-1.5 rounded-full bg-torq-red flex-shrink-0" />
