@@ -117,9 +117,7 @@ export default function Pricing() {
               </p>
               <div className="p-3 rounded-lg bg-torq-black/60 border border-torq-border">
                 <p className="text-xs text-torq-grey leading-relaxed">
-                  <span className="text-torq-white font-semibold">Overage rates TBD.</span> We're
-                  collecting real usage data now to set fair rates. Early adopters will be
-                  notified before any overage billing begins — never surprised.
+                  <span className="text-torq-white font-semibold">Overages billed at $0.15 per query above 300.</span> Early access users locked at base rate — no surprises.
                 </p>
               </div>
             </div>

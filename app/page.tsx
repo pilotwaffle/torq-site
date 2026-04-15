@@ -1,6 +1,7 @@
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import SocialProof from '@/components/SocialProof';
+import BuildStory from '@/components/BuildStory';
 import Problem from '@/components/Problem';
 import UseCases from '@/components/UseCases';
 import HowItWorks from '@/components/HowItWorks';
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Nav />
       <Hero />
       <SocialProof />
+      <BuildStory />
       <Problem />
       <UseCases />
       <HowItWorks />

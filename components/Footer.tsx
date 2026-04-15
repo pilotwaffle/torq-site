@@ -50,6 +50,9 @@ export default function Footer() {
             <p className="text-xs text-torq-grey">
               &copy; {new Date().getFullYear()} TORQ Console. All rights reserved.
             </p>
+            <p className="text-[11px] text-torq-grey/60">
+              Built by Barry Flowers
+            </p>
             <p className="text-[10px] text-torq-grey/50 font-mono tracking-wider">
               POWERED BY CLAUDE AI &middot; BUILT FOR OPERATORS
             </p>

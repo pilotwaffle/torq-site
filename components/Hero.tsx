@@ -50,8 +50,8 @@ const ConsoleMockup = () => (
             <span className="text-torq-grey text-xs ml-2">— AI Advisor</span>
           </p>
           <p className="text-torq-grey-light font-sans text-[13px] leading-relaxed">
-            MSTR holds ~214,400 BTC at a cost basis of ~$35K. Current BTC at $68,200
-            puts unrealized gain at +95%. With 30-day IV at 72%, your position carries
+            MSTR holds ~214,400 BTC at a cost basis of ~$58K. Current BTC at $84,000
+            puts unrealized gain at +45%. With 30-day IV at 78%, your position carries
             a <span className="text-torq-white font-semibold">High volatility risk</span> — appropriate for your 20% capital cap.
           </p>
           <div className="flex gap-3 mt-3 flex-wrap">
@@ -59,7 +59,7 @@ const ConsoleMockup = () => (
               Position: 1,400 shares
             </span>
             <span className="px-2.5 py-1 text-xs rounded border border-green-900 text-green-400 bg-green-950/30">
-              P&amp;L: +$47,200
+              P&amp;L: +$102,900
             </span>
             <span className="px-2.5 py-1 text-xs rounded border border-yellow-900 text-yellow-400 bg-yellow-950/30">
               Risk: Elevated

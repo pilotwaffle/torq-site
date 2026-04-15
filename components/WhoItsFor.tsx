@@ -2,59 +2,43 @@ import { Building2, TrendingUp, Users, LineChart } from 'lucide-react';
 
 const personas = [
   {
-    icon: <Building2 size={28} className="text-torq-red" />,
+    icon: <Building2 size={24} className="text-torq-red" />,
     role: 'The Business Owner',
-    tagline: 'Run ops, finances, and strategy from one console.',
-    description:
-      'You wear 12 hats. TORQ is the advisor, analyst, and strategist you\'ve never been able to afford full-time. From cash flow analysis to competitive briefs to contract review — it handles the intelligence layer so you can handle the decisions.',
-    bullets: [
-      'Strategic briefs in minutes, not days',
-      'Contract and doc review without the legal bill',
-      'Tax guidance grounded in current IRS law',
-    ],
+    problem:
+      'You're the CEO, CFO, COO, and analyst — simultaneously. Every strategic question costs you either an expensive consultant or hours of research you don't have. The answers you need exist. Finding them is the bottleneck.',
+    capability:
+      'TORQ AI loads your full business context once. From that point, every advisory brief, competitive analysis, contract review, and tax scenario runs against your actual situation — not a generic template. The intelligence layer is finally off your plate.',
   },
   {
-    icon: <TrendingUp size={28} className="text-torq-red" />,
+    icon: <TrendingUp size={24} className="text-torq-red" />,
     role: 'The Individual Investor',
-    tagline: 'Build a portfolio strategy that rivals the top 1%.',
-    description:
-      'You\'re managing real money with limited time and no army of analysts. TORQ gives you AI-driven portfolio analysis, real-time market signals, and an advisor who knows your positions — not a generic robo-advisor with guardrails.',
-    bullets: [
-      'Portfolio risk analysis with your actual holdings',
-      'Live market data + technical signal interpretation',
-      'DCA strategy, rebalancing logic, position sizing',
-    ],
+    problem:
+      'You're managing real money — not paper. The market doesn't wait for your advisor's next available slot and ChatGPT doesn't know your positions. Every decision gets made with incomplete context, or no context at all.',
+    capability:
+      'TORQ AI knows your portfolio. Every position, DCA rule, and risk threshold — already loaded. Ask what MSTR's volatility risk is against your allocation cap and get a real answer in seconds, not a disclaimer about consulting a professional.',
   },
   {
-    icon: <Users size={28} className="text-torq-red" />,
+    icon: <Users size={24} className="text-torq-red" />,
     role: 'The Wealth Manager',
-    tagline: 'Serve more clients with AI-augmented advisory.',
-    description:
-      'TORQ is the research analyst you\'ve always needed. Prep client briefings faster. Pull real-time data mid-call. Draft estate planning summaries in seconds. Scale your advisory practice without scaling headcount.',
-    bullets: [
-      'Client briefs and portfolio summaries at speed',
-      'Estate and succession planning frameworks',
-      'Document review for client financial packages',
-    ],
+    problem:
+      'Your client count grows. Your hours don't. Prep time per meeting is eating your capacity and every brief you build manually is time you're not spending on the relationships that actually generate revenue.',
+    capability:
+      'TORQ AI compresses hours of prep into minutes. Draft client summaries, pull real-time data mid-call, build estate planning frameworks, and export structured briefings — without adding headcount. Your advisory practice scales. Your hours don't.',
   },
   {
-    icon: <LineChart size={28} className="text-torq-red" />,
+    icon: <LineChart size={24} className="text-torq-red" />,
     role: 'The Operator / CFO',
-    tagline: 'Real-time intelligence across your entire business.',
-    description:
-      'You need clarity across P&L, market conditions, competitor moves, and regulatory landscape — simultaneously. TORQ\'s multi-agent execution runs handle complex, multi-step research workflows that would take a junior analyst a full day.',
-    bullets: [
-      'Multi-agent execution for complex analysis',
-      'Competitive intelligence and market positioning',
-      'Financial model drafting and scenario planning',
-    ],
+    problem:
+      'Your decisions require simultaneous visibility into P&L, market conditions, competitive moves, and regulatory exposure. You're cross-referencing four systems to get a picture that should take thirty seconds.',
+    capability:
+      'TORQ AI runs multi-step analytical workflows that would take a junior analyst a full day. Competitive briefs, financial scenario models, regulatory summaries — executed in a single run, with structured export to PDF, DOCX, or Slack, ready to share.',
   },
 ];
 
 export default function WhoItsFor() {
   return (
     <section id="who-its-for" className="py-28 relative overflow-hidden">
-      {/* Red orb */}
+      {/* Background orbs */}
       <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-torq-red/5 blur-3xl pointer-events-none" />
       <div className="absolute top-0 left-0 w-64 h-64 rounded-full bg-torq-red/4 blur-3xl pointer-events-none" />
 
@@ -69,14 +53,10 @@ export default function WhoItsFor() {
             <br />
             <span className="text-torq-grey font-light">All kinds.</span>
           </h2>
-          <p className="text-torq-grey max-w-xl mx-auto text-lg">
-            TORQ was built for people who make decisions that matter — and need intelligence
-            that keeps up.
-          </p>
         </div>
 
         {/* Persona grid */}
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6 mb-16">
           {personas.map((persona, i) => (
             <div
               key={i}
@@ -86,50 +66,45 @@ export default function WhoItsFor() {
               <div className="absolute inset-0 rounded-xl bg-torq-red/0 group-hover:bg-torq-red/[0.02] transition-colors duration-300" />
 
               <div className="relative z-10">
-                {/* Icon */}
-                <div className="w-14 h-14 rounded-xl bg-torq-red/10 border border-torq-red/20 flex items-center justify-center mb-6 group-hover:bg-torq-red/15 transition-colors">
-                  {persona.icon}
+                {/* Icon + Role */}
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 rounded-lg bg-torq-red/10 border border-torq-red/20 flex items-center justify-center flex-shrink-0 group-hover:bg-torq-red/15 transition-colors">
+                    {persona.icon}
+                  </div>
+                  <h3 className="text-lg font-black text-torq-white">
+                    {persona.role}
+                  </h3>
                 </div>
 
-                {/* Role + tagline */}
-                <h3 className="text-xl font-black text-torq-white mb-1">
-                  {persona.role}
-                </h3>
-                <p className="text-torq-red text-sm font-semibold mb-4">
-                  &ldquo;{persona.tagline}&rdquo;
-                </p>
+                {/* Problem */}
+                <div className="mb-5">
+                  <p className="text-[11px] font-bold tracking-[0.15em] uppercase text-torq-grey/50 mb-2">The Problem</p>
+                  <p className="text-torq-grey text-sm leading-relaxed">
+                    {persona.problem}
+                  </p>
+                </div>
 
-                {/* Description */}
-                <p className="text-torq-grey text-sm leading-relaxed mb-6">
-                  {persona.description}
-                </p>
+                {/* Divider */}
+                <div className="h-px bg-gradient-to-r from-torq-red/30 via-torq-red/10 to-transparent mb-5" />
 
-                {/* Bullets */}
-                <ul className="space-y-2.5 pt-5 border-t border-torq-border">
-                  {persona.bullets.map((bullet, j) => (
-                    <li key={j} className="flex items-start gap-3 text-sm text-torq-grey-light">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        className="mt-0.5 flex-shrink-0"
-                      >
-                        <path
-                          d="M2 7L5.5 10.5L12 3.5"
-                          stroke="#e8001c"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                      {bullet}
-                    </li>
-                  ))}
-                </ul>
+                {/* Capability */}
+                <div>
+                  <p className="text-[11px] font-bold tracking-[0.15em] uppercase text-torq-red/70 mb-2">With TORQ AI</p>
+                  <p className="text-torq-grey-light text-sm leading-relaxed">
+                    {persona.capability}
+                  </p>
+                </div>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Unifying closer */}
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-torq-grey-light text-xl leading-relaxed font-light">
+            They&apos;re making decisions with real consequences and they don&apos;t have time for tools that make them{' '}
+            <span className="text-torq-white font-semibold">do the thinking twice.</span>
+          </p>
         </div>
       </div>
     </section>

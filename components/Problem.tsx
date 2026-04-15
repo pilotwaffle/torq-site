@@ -22,8 +22,8 @@ const problems = [
     title: 'Generic AI gives generic answers — your business isn\'t generic',
     description:
       'ChatGPT doesn\'t know your portfolio, your risk tolerance, your tax situation, or your five-year plan. It gives you the same answer it gives everyone else. That\'s not intelligence — that\'s autocomplete.',
-    stat: '0%',
-    statLabel: 'context retained session-to-session',
+    stat: '100%',
+    statLabel: 'context retained — every session builds on the last',
   },
 ];
 
