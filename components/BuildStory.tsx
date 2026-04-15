@@ -24,7 +24,7 @@ export default function BuildStory() {
                 Built by Barry Flowers
               </h2>
               <p className="text-torq-grey text-sm leading-relaxed mb-6">
-                Founder, TORQ Business Solutions &middot; Houston, TX &middot; Building since 2024
+                Founder, TORQ Business Solutions &middot; Austin, TX &middot; Building since 2024
               </p>
             </div>
 
