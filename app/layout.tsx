@@ -2,20 +2,21 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'TORQ Console — AI Business Intelligence for Serious Decision-Makers',
+  title: 'TORQ AI — Your Autonomous Financial Intelligence Agent',
   description:
-    'TORQ Console gives small businesses, investors, and operators the same intelligence firepower as Fortune 500 advisory teams — at $50/month. 48-hour free trial. No credit card required.',
+    'Built by Barry Flowers. Trained on 1,770+ real advisory conversations. TORQ AI runs inside TORQ Console — your personal command center for every financial decision that matters. 48-hour free trial.',
   keywords: [
-    'AI business intelligence',
+    'AI financial intelligence',
     'portfolio management AI',
     'financial advisor AI',
-    'business consulting AI',
+    'autonomous financial agent',
     'market intelligence platform',
+    'TORQ AI',
     'TORQ Console',
   ],
   openGraph: {
-    title: 'TORQ Console — AI Business Intelligence',
-    description: 'Strategic briefs. Market signals. Document analysis. Built for operators who move fast.',
+    title: 'TORQ AI — Your Autonomous Financial Intelligence Agent',
+    description: 'Built by Barry Flowers. Trained on 1,770+ real advisory conversations. Built on your portfolio, not a template.',
     type: 'website',
   },
 };
