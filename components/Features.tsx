@@ -30,7 +30,7 @@ const features = [
   },
   {
     icon: <LayoutDashboard size={26} className="text-torq-red" />,
-    title: '6 Purpose-Built Workspaces',
+    title: 'Purpose-Built Workspaces',
     badge: 'Intelligent Routing',
     description:
       'Advisory Desk. Market Intelligence. Document Review. Draft Workshop. Execution Runs. Conversational Chat. Each canvas is purpose-built — specialized rendering, specialized AI routing, specialized output format. TORQ\'s 8-stage deterministic classifier routes every query to the right workspace in under 1 millisecond, before the LLM is even called. No command syntax. No learning curve.',

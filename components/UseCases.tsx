@@ -30,7 +30,7 @@ const useCases = [
     icon: <Briefcase size={22} className="text-torq-red" />,
     title: 'Business Advisory',
     description:
-      'Strategic briefs, competitive positioning, growth planning, and executive summaries — rendered on a dedicated Advisory Desk canvas with structured output. Not a chat response. A deliverable you can send to your board.',
+      'Strategic briefs, growth planning, and executive summaries generated in a dedicated advisory workspace with structured output. Not chat. A board-ready deliverable.',
     tag: 'Strategy',
     detail: 'Advisory Desk workspace',
   },
@@ -38,7 +38,7 @@ const useCases = [
     icon: <FileText size={22} className="text-torq-red" />,
     title: 'Document Review',
     description:
-      'Upload contracts, financials, trust documents, or lease agreements. TORQ routes your query to a Document Review canvas that flags risk clauses, summarizes legal terms, and surfaces what your attorney would charge $400/hr to find — in under a minute.',
+      'Upload contracts, financials, trusts, or lease agreements. TORQ routes them into a review workspace that flags risk, surfaces key terms, and produces a structured summary in minutes.',
     tag: 'Legal & Finance',
     detail: 'Document Review workspace',
   },
@@ -60,17 +60,17 @@ const useCases = [
   },
   {
     icon: <MessageSquare size={22} className="text-torq-red" />,
-    title: 'Draft & Publish',
+    title: 'Drafting & Reports',
     description:
-      'Generate polished memos, client briefs, strategy documents, and reports in the Draft Workshop. Export to PDF (print-ready), DOCX (Word-editable), or Markdown (version-controlled) with one click. Professional output, zero reformatting.',
-    tag: 'Content',
+      'Produce polished memos, client briefs, strategy documents, and reports in the Draft Workshop. Export to PDF, DOCX, or Markdown with one click. Professional output, zero reformatting.',
+    tag: 'Output',
     detail: 'Draft Workshop + Export',
   },
   {
     icon: <GitBranch size={22} className="text-torq-red" />,
     title: 'Multi-Agent Execution',
     description:
-      'Complex, multi-step business workflows — competitive analyses, scenario planning, multi-source research — run as coordinated Execution Runs with agent orchestration timelines. Decisions that used to take a junior analyst a full day complete in minutes.',
+      'Complex business workflows executed across multiple steps, sources, and decisions inside one governed system. Work that used to take a junior analyst a full day completes in minutes.',
     tag: 'Automation',
     detail: 'Execution Runs workspace',
   },
@@ -92,14 +92,15 @@ export default function UseCases() {
             Use Cases
           </p>
           <h2 className="text-4xl lg:text-5xl font-black text-torq-white mb-6 leading-tight">
-            Six workspaces.
+            One governed system.
             <br />
-            <span className="text-torq-grey font-light">Every decision you face.</span>
+            <span className="text-torq-grey font-light">Eight workspaces. Every decision you face.</span>
           </h2>
-          <p className="text-torq-grey max-w-xl mx-auto text-lg leading-relaxed">
-            TORQ's 8-stage intent classifier reads your query and routes it to the right
-            intelligence workspace automatically — in under 1 millisecond. No tab switching.
-            No tool juggling. No command syntax.
+          <p className="text-torq-grey max-w-2xl mx-auto text-lg leading-relaxed mb-4">
+            TORQ Console turns fragmented business work into a governed system. Instead of bouncing between disconnected tools, every request is routed into the right intelligence workspace with context, structure, and continuity built in. The result is faster decisions, better outputs, and less operational friction across finance, strategy, documents, and execution.
+          </p>
+          <p className="text-torq-grey/70 max-w-xl mx-auto text-sm leading-relaxed">
+            Each workspace is part of the same governed system — not a separate app, assistant, or silo.
           </p>
         </div>
 

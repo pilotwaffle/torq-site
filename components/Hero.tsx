@@ -78,9 +78,9 @@ const ConsoleMockup = () => (
       {/* Bottom bar */}
       <div className="flex items-center justify-between px-5 py-2 border-t border-torq-border bg-torq-darker text-[10px] text-torq-grey font-mono">
         <div className="flex items-center gap-4">
-          <span>6 WORKSPACES</span>
+          <span>8 WORKSPACES</span>
           <span className="text-torq-border">|</span>
-          <span>TORQ AI v2.0</span>
+          <span>TORQ CONSOLE v2.0</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -112,18 +112,18 @@ export default function Hero() {
           {/* Left: Copy */}
           <div className="flex flex-col gap-8">
             {/* Eyebrow */}
-            <p className="text-torq-red text-xs font-bold tracking-[0.2em] uppercase mb-2">Meet TORQ AI</p>
+            <p className="text-torq-red text-xs font-bold tracking-[0.2em] uppercase mb-2">Meet TORQ Console</p>
 
             {/* Headline */}
             <div>
               <h1 className="text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight text-torq-white">
-                Your autonomous financial intelligence agent
+                Governed intelligence for business, finance, and strategic decisions
               </h1>
             </div>
 
             {/* Subline */}
             <p className="text-lg text-torq-grey leading-relaxed max-w-xl">
-              Built by Barry Flowers. Trained on 1,770+ real advisory conversations. Runs inside TORQ Console — your personal command center for every financial decision that matters.
+              Built by Barry Flowers from real advisory work and Critical Path Methodology, TORQ Console turns consulting logic into a governed system that processes more data, retains more context, and executes with consistency across financial, operational, and strategic decisions.
             </p>
 
             {/* CTAs */}

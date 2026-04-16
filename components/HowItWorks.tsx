@@ -49,7 +49,7 @@ export default function HowItWorks() {
             <span className="text-torq-grey font-light">to confident decision — in seconds.</span>
           </h2>
           <p className="text-torq-grey max-w-lg mx-auto text-base leading-relaxed">
-            Three steps. Six workspaces. Nine intelligence layers working in the background
+            Three steps. Eight workspaces. Five governance layers working in the background
             so you don't have to think about any of them.
           </p>
         </div>

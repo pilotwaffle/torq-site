@@ -18,8 +18,9 @@ const TorqLogo = () => (
 );
 
 const navLinks = [
-  { label: 'Features', href: '#features' },
+  { label: 'System', href: '#system' },
   { label: 'Use Cases', href: '#use-cases' },
+  { label: 'Features', href: '#features' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'About', href: '#who-its-for' },
 ];

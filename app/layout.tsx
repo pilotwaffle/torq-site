@@ -2,21 +2,23 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'TORQ AI — Your Autonomous Financial Intelligence Agent',
+  title: 'TORQ Console — Governed Intelligence for Business, Finance, and Strategic Decisions',
   description:
-    'Built by Barry Flowers. Trained on 1,770+ real advisory conversations. TORQ AI runs inside TORQ Console — your personal command center for every financial decision that matters. 48-hour free trial.',
+    'Built by Barry Flowers from real advisory work and Critical Path Methodology. TORQ Console is a governed operating system across advisory, finance, document review, drafting, and execution — not a chatbot. 48-hour free trial.',
   keywords: [
-    'AI financial intelligence',
-    'portfolio management AI',
-    'financial advisor AI',
-    'autonomous financial agent',
-    'market intelligence platform',
-    'TORQ AI',
+    'governed AI system',
+    'production intelligence platform',
+    'advisory operating system',
+    'business decision system',
+    'financial intelligence platform',
+    'Critical Path Methodology',
     'TORQ Console',
+    'TORQ Business Solutions',
   ],
   openGraph: {
-    title: 'TORQ AI — Your Autonomous Financial Intelligence Agent',
-    description: 'Built by Barry Flowers. Trained on 1,770+ real advisory conversations. Built on your portfolio, not a template.',
+    title: 'TORQ Console — Governed Intelligence for Business, Finance, and Strategic Decisions',
+    description:
+      'A governed operating system for advisory, finance, and execution. Built from years of real consulting — not a wrapped LLM.',
     type: 'website',
   },
 };

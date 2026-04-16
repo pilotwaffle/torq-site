@@ -5,6 +5,7 @@ import BuildStory from '@/components/BuildStory';
 import Problem from '@/components/Problem';
 import UseCases from '@/components/UseCases';
 import HowItWorks from '@/components/HowItWorks';
+import TorqSystem from '@/components/TorqSystem';
 import Features from '@/components/Features';
 import WhoItsFor from '@/components/WhoItsFor';
 import Pricing from '@/components/Pricing';
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Problem />
       <UseCases />
       <HowItWorks />
+      <TorqSystem />
       <Features />
       <WhoItsFor />
       <Pricing />
