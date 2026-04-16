@@ -18,18 +18,18 @@ export default function BuildStory() {
           <div className="flex flex-col gap-6">
             <div>
               <p className="text-torq-red text-xs font-bold tracking-[0.2em] uppercase mb-4">
-                The story behind TORQ AI
+                The story behind TORQ Console
               </p>
               <h2 className="text-3xl lg:text-4xl font-black text-torq-white leading-tight mb-2">
-                Built by Barry Flowers
+                Founder-built. Operator-tested.
               </h2>
               <p className="text-torq-grey text-sm leading-relaxed mb-6">
-                Founder, TORQ Business Solutions &middot; Austin, TX &middot; Building since 2024
+                Barry Flowers, Founder &middot; TORQ Business Solutions &middot; Austin, TX &middot; Building since 2024
               </p>
             </div>
 
             <p className="text-torq-grey-light text-base leading-relaxed">
-              Barry built TORQ AI to manage his own $1M+ portfolio before it ever touched anyone else&apos;s. Not a proof of concept. Not a demo. A production system running against real positions, real tax situations, and real financial decisions — built by one person with the conviction that institutional-grade advisory intelligence shouldn&apos;t require a team of analysts or a $500/hr advisor on speed dial.
+              TORQ Console was built to manage a real $1M+ portfolio before it ever touched anyone else&apos;s. Not a proof of concept. Not a demo. A production system running against real positions, real tax situations, and real financial decisions — built by one operator with the conviction that institutional-grade advisory intelligence shouldn&apos;t require a team of analysts or a $500/hr advisor on speed dial.
             </p>
 
             <p className="text-torq-grey text-sm leading-relaxed">
@@ -37,7 +37,7 @@ export default function BuildStory() {
             </p>
 
             <p className="text-torq-white/70 text-sm leading-relaxed italic">
-              TORQ AI is what Barry wished existed when he started building his portfolio. Now it&apos;s available to you.
+              TORQ Console is the system that didn&apos;t exist when the work started. Now it&apos;s available to you.
             </p>
           </div>
 

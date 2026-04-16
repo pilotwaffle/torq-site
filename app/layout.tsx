@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'TORQ Console — Governed Intelligence for Business, Finance, and Strategic Decisions',
   description:
-    'Built by Barry Flowers from real advisory work and Critical Path Methodology. TORQ Console is a governed operating system across advisory, finance, document review, drafting, and execution — not a chatbot. 48-hour free trial.',
+    'TORQ Console is a governed operating system for advisory, finance, document review, drafting, and execution — built from real consulting work and Critical Path Methodology. Not a chatbot. 48-hour free trial.',
   keywords: [
     'governed AI system',
     'production intelligence platform',

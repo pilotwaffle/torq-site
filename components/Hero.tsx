@@ -123,7 +123,7 @@ export default function Hero() {
 
             {/* Subline */}
             <p className="text-lg text-torq-grey leading-relaxed max-w-xl">
-              Built by Barry Flowers from real advisory work and Critical Path Methodology, TORQ Console turns consulting logic into a governed system that processes more data, retains more context, and executes with consistency across financial, operational, and strategic decisions.
+              TORQ Console turns advisory thinking into a governed system that processes more data, retains more context, and executes with consistency across financial, operational, and strategic decisions.
             </p>
 
             {/* CTAs */}
