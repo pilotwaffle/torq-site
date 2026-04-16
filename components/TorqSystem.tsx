@@ -2,7 +2,7 @@ import { Database, GitBranch, LayoutGrid, ShieldCheck, FileOutput } from 'lucide
 
 const layers = [
   {
-    code: 'L1',
+    code: '01',
     icon: <Database size={22} className="text-torq-red" />,
     title: 'Memory',
     role: 'Persistent system state',
@@ -10,31 +10,31 @@ const layers = [
       'Dream Memory holds business context, holdings, strategy, entity structure, and prior decisions across sessions. Not chat history — governed knowledge that compounds with every use.',
   },
   {
-    code: 'L2',
+    code: '02',
     icon: <GitBranch size={22} className="text-torq-red" />,
     title: 'Routing',
     role: 'Deterministic intent classification',
     description:
-      'An 8-stage classifier reads every request in under a millisecond and routes it to the right workspace and the right model tier — before any LLM call is made.',
+      'An 8-stage classifier reads every request and routes it to the right workspace and the right model tier — before any LLM call is made.',
   },
   {
-    code: 'L3',
+    code: '03',
     icon: <LayoutGrid size={22} className="text-torq-red" />,
     title: 'Workspaces',
     role: 'Purpose-built execution surfaces',
     description:
-      'Advisory, Market Intelligence, Document Review, Draft Workshop, and Execution Runs — each a dedicated canvas with its own rendering, tooling, and structured output, not a generic chat thread.',
+      'Advisory Desk, Market Intelligence, Document Review, Draft Workshop, Execution Runs, and Chat — each a dedicated canvas with its own rendering, tooling, and structured output, not a generic chat thread.',
   },
   {
-    code: 'L4',
+    code: '04',
     icon: <ShieldCheck size={22} className="text-torq-red" />,
     title: 'Governance',
     role: 'Real-time policy enforcement',
     description:
-      'L21 runtime enforcement, L24 cost routing, and L25 risk classification run on every request. High-stakes changes go through audit review. Every event persists to append-only tables.',
+      'The L21–L25 stack runs on every request: runtime enforcement, context compaction, multi-model cost routing, and risk classification. High-stakes changes go through audit review and persist to append-only tables.',
   },
   {
-    code: 'L5',
+    code: '05',
     icon: <FileOutput size={22} className="text-torq-red" />,
     title: 'Output & Evolution',
     role: 'Production-ready, continuously improving',

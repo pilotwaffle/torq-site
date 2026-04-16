@@ -94,13 +94,13 @@ export default function UseCases() {
           <h2 className="text-4xl lg:text-5xl font-black text-torq-white mb-6 leading-tight">
             One governed system.
             <br />
-            <span className="text-torq-grey font-light">Eight workspaces. Every decision you face.</span>
+            <span className="text-torq-grey font-light">Six workspaces. Every decision you face.</span>
           </h2>
           <p className="text-torq-grey max-w-2xl mx-auto text-lg leading-relaxed mb-4">
-            TORQ Console turns fragmented business work into a governed system. Instead of bouncing between disconnected tools, every request is routed into the right intelligence workspace with context, structure, and continuity built in. The result is faster decisions, better outputs, and less operational friction across finance, strategy, documents, and execution.
+            TORQ Console turns fragmented business work into a governed system. Instead of bouncing between disconnected tools, every request is routed into the right workspace — Advisory Desk, Market Intelligence, Document Review, Draft Workshop, Execution Runs, or Chat — with context, structure, and continuity built in.
           </p>
           <p className="text-torq-grey/70 max-w-xl mx-auto text-sm leading-relaxed">
-            Each workspace is part of the same governed system — not a separate app, assistant, or silo.
+            Six workspaces. Eight common use cases. One governed system — not a stack of separate apps, assistants, or silos.
           </p>
         </div>
 

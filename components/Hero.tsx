@@ -78,9 +78,9 @@ const ConsoleMockup = () => (
       {/* Bottom bar */}
       <div className="flex items-center justify-between px-5 py-2 border-t border-torq-border bg-torq-darker text-[10px] text-torq-grey font-mono">
         <div className="flex items-center gap-4">
-          <span>8 WORKSPACES</span>
+          <span>6 WORKSPACES</span>
           <span className="text-torq-border">|</span>
-          <span>TORQ CONSOLE v2.0</span>
+          <span>TORQ CONSOLE v0.29</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />

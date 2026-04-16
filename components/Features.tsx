@@ -73,7 +73,7 @@ const features = [
     title: 'L21–L25 Governance Stack',
     badge: 'Enterprise-Grade',
     description:
-      'TORQ ships a full 5-layer governance architecture. L21 Runtime Enforcement monitors every operation through a 5-mode lifecycle (Observe → Advise → Shadow → Partial → Enforce). L25 Risk Classification fast-paths low-risk operations and routes high-stakes changes through audit review. Every governance decision, config change, and enforcement event persists to append-only Supabase tables — a full audit trail, bank-grade.',
+      'TORQ ships a four-layer governance architecture in production. L21 Runtime Enforcement monitors every operation through a 5-mode lifecycle (Observe → Advise → Shadow → Partial → Enforce). L22.5 Context Pipeline keeps long sessions stable. L24 Multi-Model Cost Router selects the right model tier per call. L25 Risk Classification fast-paths low-risk ops and routes high-stakes changes through audit review. Every decision persists to append-only Supabase tables — a full audit trail, bank-grade.',
     highlight: 'Full audit trail — append-only, tamper-evident',
   },
   {

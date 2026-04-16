@@ -49,7 +49,7 @@ export default function HowItWorks() {
             <span className="text-torq-grey font-light">to confident decision — in seconds.</span>
           </h2>
           <p className="text-torq-grey max-w-lg mx-auto text-base leading-relaxed">
-            Three steps. Eight workspaces. Five governance layers working in the background
+            Three steps. Six workspaces. Four governance layers working in the background
             so you don't have to think about any of them.
           </p>
         </div>
@@ -99,11 +99,12 @@ export default function HowItWorks() {
 
         {/* Intelligence layer callout */}
         <div className="mt-20 rounded-xl border border-torq-border bg-torq-surface/40 p-6 max-w-4xl mx-auto">
-          <div className="grid sm:grid-cols-3 gap-6 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
               { label: 'L21', desc: 'Runtime Enforcement', status: 'Live · Observe Mode' },
-              { label: 'L24', desc: 'Multi-Model Cost Router', status: 'Live · 4-Tier Active' },
-              { label: 'L25', desc: 'Risk Classification', status: 'Live · Fast-Path Active' },
+              { label: 'L22.5', desc: 'Context Pipeline', status: 'Live · 150K Compaction' },
+              { label: 'L24', desc: 'Multi-Model Cost Router', status: 'Live · Tier-3 Active' },
+              { label: 'L25', desc: 'Runtime Governance', status: 'Live · Fast-Path Active' },
             ].map((layer, i) => (
               <div key={i} className="flex flex-col items-center gap-1">
                 <span className="text-xs font-black font-mono text-torq-red tracking-widest">{layer.label}</span>
@@ -114,7 +115,7 @@ export default function HowItWorks() {
           </div>
           <div className="mt-4 pt-4 border-t border-torq-border text-center">
             <p className="text-xs text-torq-grey/50">
-              Five governance layers run silently on every query — enforcing safety, optimizing cost, and building institutional memory.
+              Four governance layers run silently on every query — enforcing safety, compacting context, optimizing cost, and classifying risk.
             </p>
           </div>
         </div>
