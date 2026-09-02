@@ -1,11 +1,11 @@
 import { Zap, Code2, Layers, Clock, TrendingUp, Shield } from 'lucide-react';
 
 const stats = [
-  { icon: <Zap size={13} className="text-torq-red" />, label: 'Powered by Claude AI' },
-  { icon: <Code2 size={13} className="text-torq-red" />, label: '288,000+ lines of production code' },
-  { icon: <Layers size={13} className="text-torq-red" />, label: '6 specialized workspaces' },
+  { icon: <Zap size={13} className="text-torq-red" />, label: 'L27 4-tier model router' },
+  { icon: <Code2 size={13} className="text-torq-red" />, label: 'v0.80 production workbench' },
+  { icon: <Layers size={13} className="text-torq-red" />, label: '6 canvases + cyber-range' },
   { icon: <TrendingUp size={13} className="text-torq-red" />, label: '8-stage intent classifier' },
-  { icon: <Shield size={13} className="text-torq-red" />, label: 'L21–L25 governance stack' },
+  { icon: <Shield size={13} className="text-torq-red" />, label: 'L17–L28 governance stack' },
   { icon: <Clock size={13} className="text-torq-red" />, label: '48-hour free trial' },
 ];
 
